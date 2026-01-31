@@ -21,3 +21,4 @@ def setup_class(request):
 
    yield
    driver.quit()
+
