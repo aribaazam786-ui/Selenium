@@ -25,3 +25,4 @@ class WaitUtils:
        if timeout:
            return wait.until(EC.invisibility_of_element_located(locator), timeout)
        return wait.until(EC.invisibility_of_element_located(locator))
+
