@@ -65,4 +65,5 @@ class TestLogin:
        login_page.login("Admin", "admin123")
        expected = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
        actual = login_page.get_current_url()
+
        check.equal(actual, expected, f"Expected dashboard URL but got: {actual}")
